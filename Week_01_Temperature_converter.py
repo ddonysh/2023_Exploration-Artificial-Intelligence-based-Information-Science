@@ -1,0 +1,5 @@
+Fahrenheit = float(input('화씨 입력' ))
+Celsius = (Fahrenheit-32.0) * (5.0) / (9.0)
+#print("화씨 %.2lf도는 섭씨 %.2lf도 입니다." % (Fahrenheit, Celsius))
+#print(f"화씨 {Fahrenheit:.2f}도는 섭씨 {Celsius:.2f}도 입니다.")
+print("화씨 {0:.2f}도는 섭씨 {1:.2f}도 입니다.".format(Fahrenheit, Celsius))
